@@ -22,6 +22,8 @@ public class NQueens {
         }
         return count;
     }
+
+
     private static boolean issafe(boolean[][] board,int row,int col){
         //check vertical row
         for(int i = 0;i < row; i++){
